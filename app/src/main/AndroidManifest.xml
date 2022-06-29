@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.KELOMPOK5.WisataMalang">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_iconmalang"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_iconmalang"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Wisata">
+        <activity android:name="com.KELOMPOK5.WisataMalang.About"></activity>
+        <activity android:name="com.KELOMPOK5.WisataMalang.Kampoong" />
+        <activity android:name="com.KELOMPOK5.WisataMalang.Ronde" />
+        <activity android:name="com.KELOMPOK5.WisataMalang.CandiJago" />
+        <activity android:name="com.KELOMPOK5.WisataMalang.Gereja" />
+        <activity android:name="com.KELOMPOK5.WisataMalang.Masjidjami" />
+        <activity android:name="com.KELOMPOK5.WisataMalang.WisataReligi" />
+        <activity android:name="com.KELOMPOK5.WisataMalang.WisataKuliner" />
+        <activity android:name="com.KELOMPOK5.WisataMalang.angkut" />
+        <activity android:name="com.KELOMPOK5.WisataMalang.greenpark" />
+        <activity android:name="com.KELOMPOK5.WisataMalang.WisataEdukasi" />
+        <activity android:name="com.KELOMPOK5.WisataMalang.tigawarna" />
+        <activity android:name="com.KELOMPOK5.WisataMalang.AlamMayang" />
+        <activity android:name="com.KELOMPOK5.WisataMalang.AirTerjun" />
+        <activity android:name="com.KELOMPOK5.WisataMalang.WisataAlam" />
+        <activity android:name="com.KELOMPOK5.WisataMalang.Bromo" />
+        <activity android:name="com.KELOMPOK5.WisataMalang.MenuUtama" />
+        <activity android:name="com.KELOMPOK5.WisataMalang.jatimpark"/>
+        <activity android:name="com.KELOMPOK5.WisataMalang.brawijaya"/>
+        <activity android:name="com.KELOMPOK5.WisataMalang.depot"/>
+        <activity android:name="com.KELOMPOK5.WisataMalang.Klenteng"/>
+        <activity android:name="com.KELOMPOK5.WisataMalang.orem"/>
+        <activity android:name="com.KELOMPOK5.WisataMalang.president"/>
+        <activity android:name="com.KELOMPOK5.WisataMalang.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

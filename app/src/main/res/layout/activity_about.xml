@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#205F7C"
+        android:text="TENTANG APLIKASI"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textSize="12pt"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Kelompok 5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="WISATA MALANG | PBO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Developed : \nAgung Mahfudin | 50420069 \nEdlyn Rafi Jatmiko | 50420406 \nLutfhia Shakila Wafda|50420681 \nNovanto Putra Nagari | 50420979
+\nRyan Indra Pratama | 51420150 \n"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="8pt" />
+
+    <Button
+        android:id="@+id/btkembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Kembali"
+        app:backgroundTint="#2A6C8A" />
+
+</LinearLayout>
